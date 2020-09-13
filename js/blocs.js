@@ -376,8 +376,8 @@ $(document).ready(function () {
       -1 == navigator.userAgent.indexOf('Chrome') &&
       $('#page-loading-blocs-notifaction').remove();
 }),
-  $(window)
-    .load(function () {
+  $(document)
+    .ready(function () {
       setFillScreenBlocHeight(),
         animateWhenVisible(),
         $('#page-loading-blocs-notifaction').remove();
