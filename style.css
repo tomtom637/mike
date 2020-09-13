@@ -663,6 +663,9 @@ a {
 }
 footer a {
   color: #bbb !important;
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.3rem;
 }
 
 .container {
