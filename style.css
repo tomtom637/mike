@@ -779,8 +779,10 @@ h4 {
 }
 
 .big-quote {
+  color: #333;
   font-size: 3.5rem;
   margin-bottom: 5rem;
+  border: none;
 }
 @media (max-width: 790px) {
   .big-quote {
@@ -807,6 +809,17 @@ h4 {
   .small-quote {
     margin-top: 1.5rem;
     font-size: 1.4rem;
+  }
+}
+
+.blue-quote {
+  font-size: 2.3rem;
+  border: none;
+}
+@media (max-width: 767px) {
+  .blue-quote {
+    margin-top: 1.5rem;
+    font-size: 1.9rem;
   }
 }
 
@@ -861,11 +874,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-  color: #f3976c !important;
+  border-bottom: 7px solid rgba(243, 151, 108, 0.644);
 }
 
 .ltc-atomic-tangerine:hover {
-  color: #c27956 !important;
+  color: #f3976c !important;
 }
 
 .icon-dark-slate-blue {
